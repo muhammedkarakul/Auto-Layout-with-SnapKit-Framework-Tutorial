@@ -14,6 +14,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .red
+        title = "Second View Controller"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
 
